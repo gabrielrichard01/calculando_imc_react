@@ -1,0 +1,50 @@
+.calculadora{
+    background-color: #0fbcf9;
+    height: 100vh;
+}
+
+.container{
+    max-width: 680px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px 40px;
+}
+
+.imcAltura, .imcPeso{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.imcAltura label, .imcPeso label{
+    font-weight: bold;
+    display: block;
+}
+
+.imcAltura input, .imcPeso input{
+    padding: 5px;
+}
+
+.btn{
+    padding: 8px;
+    font-weight: bold;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #ffc048;
+    border: none;
+}
+
+.resultadoImc{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resultadoImc p{
+    padding-bottom: 15px;
+    font-size: 20px;
+}
